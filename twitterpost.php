@@ -3,9 +3,6 @@
 //require dirname(__FILE__)."lib/TwitterOAuth.php";
 
 // OAuthライブラリの読み込み
-
-echo dirname(__FILE__);
-
 //require (dirname(__FILE__).'/twitteroauth/autoload.php');
 require (dirname(__FILE__).'/twitteroauth/src/TwitterOAuth.php');
 //require (dirname(__FILE__).'/twitteroauth/autoload.php');
