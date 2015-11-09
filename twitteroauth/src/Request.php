@@ -3,8 +3,9 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith
  */
-namespace Abraham\TwitterOAuth;
+//namespace Abraham\TwitterOAuth;
 
+require (dirname(__FILE__).'/Util.php');
 class Request
 {
     protected $parameters;

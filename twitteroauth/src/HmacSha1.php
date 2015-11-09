@@ -3,7 +3,8 @@
  * The MIT License
  * Copyright (c) 2007 Andy Smith
  */
-namespace Abraham\TwitterOAuth;
+//namespace Abraham\TwitterOAuth;
+require (dirname(__FILE__).'/SignatureMethod.php');
 
 /**
  * The HMAC-SHA1 signature method uses the HMAC-SHA1 signature algorithm as defined in [RFC2104]

@@ -4,9 +4,17 @@
  *
  * @license MIT
  */
-namespace Abraham\TwitterOAuth;
+//namespace Abraham\TwitterOAuth;
 
-use Abraham\TwitterOAuth\Util\JsonDecoder;
+//use Abraham\TwitterOAuth\Util\JsonDecoder;
+require (dirname(__FILE__).'/Config.php');
+require (dirname(__FILE__).'/Response.php');
+require (dirname(__FILE__).'/HmacSha1.php');
+
+require (dirname(__FILE__).'/Token.php');
+require (dirname(__FILE__).'/Request.php');
+require (dirname(__FILE__).'/Consumer.php');
+require (dirname(__FILE__).'/Util/JsonDecoder.php');
 
 /**
  * TwitterOAuth class for interacting with the Twitter API.

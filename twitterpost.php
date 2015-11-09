@@ -1,8 +1,15 @@
 <?php
 
+//require dirname(__FILE__)."lib/TwitterOAuth.php";
+
 // OAuthライブラリの読み込み
-require "twitteroauth/autoload.php";
-use Abraham\TwitterOAuth\TwitterOAuth;
+
+echo dirname(__FILE__);
+
+//require (dirname(__FILE__).'/twitteroauth/autoload.php');
+require (dirname(__FILE__).'/twitteroauth/src/TwitterOAuth.php');
+//require (dirname(__FILE__).'/twitteroauth/autoload.php');
+//use Abraham\TwitterOAuth\TwitterOAuth;
 
 //認証情報４つ
 $consumerKey = "fnmUm8h8VExeY2DulXhe2Yzqh";
